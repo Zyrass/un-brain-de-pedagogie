@@ -1,28 +1,51 @@
 // import Header from "../../components/Header";
-// import styles from "./HomePage.module.scss";
 
+import styles from "./HomePage.module.scss";
 
 import imgArbre from "../../assets/images/arbre.webp";
-// import imgTomorrow from "../../assets/images/tomorrow.webp";
+import imgTomorrow from "../../assets/images/tomorrow.webp";
 
 function HomePage() {
   return (
     <>
-      <section className="debug1">
-        <h1 className="debug2">Un brain de pédagogie</h1>
-        <h2 className="debug3">PSYCHOPÉDAGOGUE ET SOPHROLOGUE</h2>
-        <p className="debug4 text-lead">
+      <section className={styles.homepage}>
+        <h1>Un brain de pédagogie</h1>
+        <h2>
+          PSYCHOPÉDAGOGUE <br /> & SOPHROLOGUE
+        </h2>
+        <p className="text-lead">
           Besoin d'accompagnement dans le parcours éducatif de votre enfant ou
           dans la gestion du stress et des émotions, je vous reçois ou me
           déplace sur Meyzieu et ses environs.
         </p>
-        <img src={imgArbre} alt="Représentation d'un arbre qui pousse" className="debug-5" />
+        <img
+          src={imgArbre}
+          alt="Représentation d'un arbre qui pousse"
+          className="debug-5"
+        />
       </section>
 
       {/* <Header /> */}
 
-      {/* <section>
-        <h3>Qui suis-je</h3>
+      <section className={`${styles.who}`}>
+        <div>
+          <h3>Qui suis-je ?</h3>
+          <div>
+            <img
+              src={imgTomorrow}
+              alt="Représentation d'une flèche pour un jour meilleur"
+            />
+          </div>
+          <blockquote>
+            <p>
+              Mais alors, dit Alice, si le monde n'a absolument aucun sens, qui
+              nous empêche d'en inventer un ?
+            </p>
+            <cite>
+              Alice au pays des merveilles de <strong>Lewis Carroll</strong>
+            </cite>
+          </blockquote>
+        </div>
         <div>
           <p>
             Passionnée par l’être humain et son développement, j'ai exercé en
@@ -42,20 +65,7 @@ function HomePage() {
             sophrologie.
           </p>
         </div>
-        <aside>
-          <img
-            src={imgTomorrow}
-            alt="Représentation d'une flèche pour un jour meilleur"
-          />
-          <blockquote>
-            <p>
-              Mais alors, dit Alice, si le monde n'a absolument aucun sens, qui
-              nous empêche d'en inventer un ?
-            </p>
-            <cite>Alice au pays des merveilles de Lewis Carroll</cite>
-          </blockquote>
-        </aside>
-      </section> */}
+      </section>
     </>
   );
 }

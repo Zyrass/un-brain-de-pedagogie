@@ -1,5 +1,4 @@
 import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 
 import ImgSable1 from "../../assets/images/sable1.webp";
 import ImgSable2 from "../../assets/images/sable2.webp";
@@ -101,8 +100,6 @@ function Sophrologie() {
           </div>
         </section>
       </article>
-
-      <Footer />
     </>
   );
 }

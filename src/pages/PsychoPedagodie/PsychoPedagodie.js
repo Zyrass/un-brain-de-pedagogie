@@ -1,5 +1,4 @@
 import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 
 import ImgBusiness from "../../assets/images/Business_Handshake.webp";
 import ImgSchool from "../../assets/images/School_Application.webp";
@@ -101,7 +100,6 @@ function PsychoPedagogie() {
           </ul>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

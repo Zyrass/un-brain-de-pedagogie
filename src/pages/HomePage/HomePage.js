@@ -1,27 +1,27 @@
+// import Header from "../../components/Header";
 // import styles from "./HomePage.module.scss";
-import Header from "../../components/Header";
+
 
 import imgArbre from "../../assets/images/arbre.webp";
-import imgTomorrow from "../../assets/images/tomorrow.webp";
-import Footer from "../../components/Footer";
+// import imgTomorrow from "../../assets/images/tomorrow.webp";
 
 function HomePage() {
   return (
     <>
-      <section>
-        <h1>Un brain de pédagogie</h1>
-        <h2>PSYCHOPÉDAGOGUE ET SOPHROLOGUE</h2>
-        <p>
+      <section className="debug1">
+        <h1 className="debug2">Un brain de pédagogie</h1>
+        <h2 className="debug3">PSYCHOPÉDAGOGUE ET SOPHROLOGUE</h2>
+        <p className="debug4 text-lead">
           Besoin d'accompagnement dans le parcours éducatif de votre enfant ou
           dans la gestion du stress et des émotions, je vous reçois ou me
           déplace sur Meyzieu et ses environs.
         </p>
-        <img src={imgArbre} alt="Représentation d'un arbre qui pousse" />
+        <img src={imgArbre} alt="Représentation d'un arbre qui pousse" className="debug-5" />
       </section>
 
-      <Header />
+      {/* <Header /> */}
 
-      <section>
+      {/* <section>
         <h3>Qui suis-je</h3>
         <div>
           <p>
@@ -55,8 +55,7 @@ function HomePage() {
             <cite>Alice au pays des merveilles de Lewis Carroll</cite>
           </blockquote>
         </aside>
-      </section>
-      <Footer />
+      </section> */}
     </>
   );
 }

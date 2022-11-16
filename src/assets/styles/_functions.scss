@@ -1,0 +1,6 @@
+@mixin padding($direction, $value) {
+  padding-$direcion: $value;
+
+  @if $direction == $left {
+  }
+}

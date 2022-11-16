@@ -1,0 +1,25 @@
+/*!
+ * Partial variables v1.0.0
+ * Copyright 2022-2030 Zyrass (Alain Guillon Author)
+ * Inspirated by Bootstrap and Dyma
+ */
+
+:root {
+  --primary: #434343;
+  --secondary: #f1f1f1;
+
+  --strong: #b71540;
+  --title: #0c2461;
+  --link: #6a89cc;
+
+  // https://flatuicolors.com/palette/fr
+
+  // font-family
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  // box-shadow
+  --box-shadow: 0 6px 9px 0 rgb(0 0 0 / 15%);
+  --box-shadow-nav: rgb(0 0 0 / 22%) 0px 2px 18px 0px;
+}

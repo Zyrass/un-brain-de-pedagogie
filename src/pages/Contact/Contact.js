@@ -1,6 +1,5 @@
 // import styles from "./Contact.module.scss";
 
-import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 function Contact() {
@@ -71,7 +70,6 @@ function Contact() {
           <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

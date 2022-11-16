@@ -1,0 +1,9 @@
+.application {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 450px;
+  grid-template-areas:
+    "pages"
+    "footer";
+}

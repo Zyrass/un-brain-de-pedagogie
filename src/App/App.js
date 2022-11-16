@@ -1,10 +1,14 @@
 import { Outlet } from "react-router-dom";
-// import styles from "./App.module.scss";
+import Footer from "../components/Footer";
+import styles from "./App.module.scss";
 
 function App() {
   return (
-    <div className="App">
-      <Outlet />
+    <div className={styles.application}>
+      <main>
+        <Outlet />
+      </main>
+      <Footer />
     </div>
   );
 }
